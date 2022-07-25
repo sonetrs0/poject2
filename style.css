@@ -133,5 +133,29 @@ align-items: center;
     margin-left: 5px;
 }
 /* media quary */
+@media only screen and (max-width:688px) {
+    
+    
+    .player{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog1{
+
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .blog3{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .courses{
+        
+        grid-template-columns: repeat(1, 1fr);  
+        padding-top: 20px;
+    }
+    
+}
 
     
