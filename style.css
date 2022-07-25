@@ -139,10 +139,12 @@ align-items: center;
     .player{
         
         grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
     }
     .blog1{
 
         grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
         
     }
     .blog3{
